@@ -6,14 +6,14 @@
 	(paper "A4")
 	(lib_symbols)
 	(junction
-		(at 88.9 54.61)
+		(at 81.28 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "801e65a0-a0f1-4a66-b8ad-9209a09eb292")
 	)
 	(wire
 		(pts
-			(xy 175.26 44.45) (xy 175.26 54.61)
+			(xy 167.64 43.18) (xy 167.64 53.34)
 		)
 		(stroke
 			(width 0)
@@ -23,7 +23,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 54.61) (xy 180.34 54.61)
+			(xy 167.64 53.34) (xy 172.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -33,7 +33,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 88.9 44.45)
+			(xy 81.28 53.34) (xy 81.28 43.18)
 		)
 		(stroke
 			(width 0)
@@ -43,7 +43,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 180.34 60.96)
+			(xy 154.94 59.69) (xy 172.72 59.69)
 		)
 		(stroke
 			(width 0)
@@ -53,7 +53,27 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 54.61) (xy 99.06 54.61)
+			(xy 200.66 82.55) (xy 200.66 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4949b72a-fcec-40b2-b960-05cd1fef415d")
+	)
+	(wire
+		(pts
+			(xy 217.17 110.49) (xy 224.79 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684a67dc-963d-41da-84cd-5e7898fda427")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 91.44 53.34)
 		)
 		(stroke
 			(width 0)
@@ -63,7 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 54.61) (xy 88.9 54.61)
+			(xy 71.12 53.34) (xy 81.28 53.34)
 		)
 		(stroke
 			(width 0)
@@ -73,7 +93,57 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 44.45) (xy 175.26 44.45)
+			(xy 163.83 88.9) (xy 154.94 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87a534af-3c31-419c-a795-cbbace95663b")
+	)
+	(wire
+		(pts
+			(xy 195.58 82.55) (xy 195.58 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a62be2e-f165-4dcb-8f1c-571d1e9094be")
+	)
+	(wire
+		(pts
+			(xy 205.74 82.55) (xy 205.74 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ae1058-74fc-457b-98c0-40e6a52de2ce")
+	)
+	(wire
+		(pts
+			(xy 210.82 82.55) (xy 210.82 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7383e1-c227-4804-b6b5-1b295e5aeba4")
+	)
+	(wire
+		(pts
+			(xy 163.83 110.49) (xy 163.83 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9dc0b5e-80d7-492d-8bfb-d37df5a93f38")
+	)
+	(wire
+		(pts
+			(xy 81.28 43.18) (xy 167.64 43.18)
 		)
 		(stroke
 			(width 0)
@@ -81,8 +151,18 @@
 		)
 		(uuid "cda358db-19c9-4653-9611-7c7dfeeaecf8")
 	)
+	(wire
+		(pts
+			(xy 163.83 110.49) (xy 172.72 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3fbfdc-f332-48ad-90d6-9d0983d0037f")
+	)
 	(sheet
-		(at 180.34 50.8)
+		(at 172.72 49.53)
 		(size 43.18 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -98,7 +178,7 @@
 		)
 		(uuid "1fee5689-c3d1-4b5d-a2d6-da92180c3d77")
 		(property "Sheetname" "Mixer"
-			(at 180.34 50.0884 0)
+			(at 172.72 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -107,7 +187,7 @@
 			)
 		)
 		(property "Sheetfile" "mixer.kicad_sch"
-			(at 180.34 84.4046 0)
+			(at 172.72 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -116,7 +196,7 @@
 			)
 		)
 		(pin "Q_SIGNAL_OUTPUT" input
-			(at 218.44 83.82 270)
+			(at 210.82 82.55 270)
 			(uuid "94a54c00-91c3-4b83-b10b-b3b81c485725")
 			(effects
 				(font
@@ -126,7 +206,7 @@
 			)
 		)
 		(pin "+2.5V" input
-			(at 180.34 54.61 180)
+			(at 172.72 53.34 180)
 			(uuid "f28fcf22-6de4-428c-bcb5-df1dfceedb6d")
 			(effects
 				(font
@@ -135,18 +215,8 @@
 				(justify left)
 			)
 		)
-		(pin "OSC-IN-2" input
-			(at 208.28 83.82 270)
-			(uuid "da7a1e8b-57f0-4b68-80ab-5ab4d3541cda")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "RF_RAW_IN" input
-			(at 180.34 60.96 180)
+			(at 172.72 59.69 180)
 			(uuid "db5730eb-1a14-42df-a33f-982a2a4dffe5")
 			(effects
 				(font
@@ -155,9 +225,9 @@
 				(justify left)
 			)
 		)
-		(pin "OSC-IN-1" input
-			(at 203.2 83.82 270)
-			(uuid "38a3cd25-902b-4027-b144-7671c8fd6156")
+		(pin "I_SIGNAL_OUTPUT" input
+			(at 205.74 82.55 270)
+			(uuid "86a62fac-7055-4df8-bb6c-bfe30237b509")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,9 +235,19 @@
 				(justify left)
 			)
 		)
-		(pin "I_SIGNAL_OUTPUT" input
-			(at 213.36 83.82 270)
-			(uuid "86a62fac-7055-4df8-bb6c-bfe30237b509")
+		(pin "OSC-2-IN" input
+			(at 200.66 82.55 270)
+			(uuid "d66f77e5-408e-4b52-bf7d-0b8ccc68b8d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSC-1-IN" input
+			(at 195.58 82.55 270)
+			(uuid "55cc8759-cdf4-4246-afe1-e9eeff75a6a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -184,7 +264,7 @@
 		)
 	)
 	(sheet
-		(at 180.34 88.9)
+		(at 172.72 87.63)
 		(size 44.45 29.21)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -200,7 +280,7 @@
 		)
 		(uuid "87c2a97f-7e2c-4d23-9a82-6762bca69e9f")
 		(property "Sheetname" "MCU"
-			(at 180.34 88.1884 0)
+			(at 172.72 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -209,12 +289,72 @@
 			)
 		)
 		(property "Sheetfile" "mcu.kicad_sch"
-			(at 180.34 118.6946 0)
+			(at 172.72 117.4246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Q_SIGNAL_INPUT" input
+			(at 210.82 87.63 90)
+			(uuid "0fa90df1-cb72-46a7-a514-66ab9a873441")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I_SIGNAL_INPUT" input
+			(at 205.74 87.63 90)
+			(uuid "807c5e8c-80ad-43fa-8a74-41af111eaf0b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_AUDIO_OUTPUT" input
+			(at 217.17 110.49 0)
+			(uuid "e5081a14-368a-488b-acea-5be8c4f50862")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_TUNING_OUTPUT" input
+			(at 172.72 110.49 180)
+			(uuid "f4170343-bfa8-471a-b9e2-6b676aa761ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSC-2-OUT" input
+			(at 200.66 87.63 90)
+			(uuid "c8841c9f-618a-4e9c-ae49-53086b538203")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OSC-1-OUT" input
+			(at 195.58 87.63 90)
+			(uuid "dbdeb67e-5d5c-435d-9f42-6328f1af556c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -226,7 +366,7 @@
 		)
 	)
 	(sheet
-		(at 232.41 92.71)
+		(at 224.79 91.44)
 		(size 34.29 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -242,7 +382,7 @@
 		)
 		(uuid "b748653b-2067-46e2-bb9a-2f71cd3b982b")
 		(property "Sheetname" "Audio Output"
-			(at 232.41 91.9984 0)
+			(at 224.79 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -251,7 +391,7 @@
 			)
 		)
 		(property "Sheetfile" "audio-output.kicad_sch"
-			(at 232.41 116.1546 0)
+			(at 224.79 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -260,7 +400,7 @@
 			)
 		)
 		(pin "PWM_AUDIO" input
-			(at 232.41 99.06 180)
+			(at 224.79 110.49 180)
 			(uuid "e3a7e2f8-b36c-462a-b991-0a3cf6b3efa4")
 			(effects
 				(font
@@ -278,7 +418,7 @@
 		)
 	)
 	(sheet
-		(at 52.07 49.53)
+		(at 44.45 48.26)
 		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -294,7 +434,7 @@
 		)
 		(uuid "c6ca452b-aef1-427c-9a2c-166e3ee6ee83")
 		(property "Sheetname" "Power Supply"
-			(at 52.07 48.8184 0)
+			(at 44.45 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +443,7 @@
 			)
 		)
 		(property "Sheetfile" "power-supply.kicad_sch"
-			(at 52.07 72.9746 0)
+			(at 44.45 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -312,7 +452,7 @@
 			)
 		)
 		(pin "+2.5V" input
-			(at 78.74 54.61 0)
+			(at 71.12 53.34 0)
 			(uuid "83cf5ab1-0503-40b5-a51c-4f89ae7830b1")
 			(effects
 				(font
@@ -330,8 +470,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 49.53)
-		(size 63.5 43.18)
+		(at 91.44 48.26)
+		(size 63.5 46.99)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -346,7 +486,7 @@
 		)
 		(uuid "c6fe5e6b-29cd-4e37-8519-ecce5d615ac4")
 		(property "Sheetname" "LC Tank Circuit"
-			(at 99.06 48.8184 0)
+			(at 91.44 47.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -355,7 +495,7 @@
 			)
 		)
 		(property "Sheetfile" "lc-tank-circuit.kicad_sch"
-			(at 99.06 93.2946 0)
+			(at 91.44 95.8346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,18 +503,8 @@
 				(justify left top)
 			)
 		)
-		(pin "PWM_TUNING" input
-			(at 162.56 87.63 0)
-			(uuid "972a4717-8cb0-4613-9a81-6dfef34e3662")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RF_RAW_OUT" input
-			(at 162.56 60.96 0)
+			(at 154.94 59.69 0)
 			(uuid "54a25fe5-883f-440c-8a66-87eb0e17a339")
 			(effects
 				(font
@@ -384,13 +514,23 @@
 			)
 		)
 		(pin "+2.5V" input
-			(at 99.06 54.61 180)
+			(at 91.44 53.34 180)
 			(uuid "d1df4fcb-5a20-451e-811f-18afd5624930")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PWM_TUNING_INPUT" input
+			(at 154.94 88.9 0)
+			(uuid "f1439a19-4776-4690-8dee-14eacfe94a10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

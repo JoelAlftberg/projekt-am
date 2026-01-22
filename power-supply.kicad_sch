@@ -1741,6 +1741,16 @@
 		)
 		(uuid "cbe88d48-6d0f-45ae-9d63-aaf7840368d7")
 	)
+	(text "Skyddsdiod"
+		(exclude_from_sim no)
+		(at 151.13 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de6b2b51-0f94-45db-b7e7-89ae24375707")
+	)
 	(text "Skydd mot felkoppling\n(Reverse Polarity Protection)"
 		(exclude_from_sim no)
 		(at 95.25 80.264 0)
@@ -3580,10 +3590,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1b76c3e-cd78-4ce8-94e5-f2f1283e465c")
+			(uuid "d1b76c3e-cd78-4ce8-94e5-f2f1283e465d")
 		)
 		(pin "2"
-			(uuid "a3b4d9f8-e53e-4ce4-acb9-a6a93dd45562")
+			(uuid "a3b4d9f8-e53e-4ce4-acb9-a6a93dd45563")
 		)
 		(instances
 			(project ""
