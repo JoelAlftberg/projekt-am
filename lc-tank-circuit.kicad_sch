@@ -3098,7 +3098,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1k"
 			(at 62.23 86.36 90)
 			(effects
 				(font
@@ -3151,15 +3151,15 @@
 	(symbol
 		(lib_id "Transistor_FET:IRF9540N")
 		(at 100.33 85.09 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b79d1f69-4fe1-4325-8946-1361d57e1c48")
+		(uuid "a7bba6c2-5acc-4eea-ba48-02cc703df6a6")
 		(property "Reference" "Q3"
-			(at 106.68 83.8199 0)
+			(at 106.68 86.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3168,7 +3168,7 @@
 			)
 		)
 		(property "Value" "IRF9540N"
-			(at 106.68 86.3599 0)
+			(at 106.68 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3177,7 +3177,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 105.41 86.995 0)
+			(at 105.41 83.185 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3188,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf"
-			(at 105.41 88.9 0)
+			(at 105.41 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,14 +3206,14 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "40dc6842-2602-4421-be0a-bdba30f64a3c")
-		)
 		(pin "3"
-			(uuid "8b034460-84bf-4cd8-a439-ab3f762844b7")
+			(uuid "b14ac10b-5aa1-402e-886c-43b0d7a9137a")
 		)
 		(pin "2"
-			(uuid "98c3bf5e-9441-4f13-b3ae-2b6d54b9c0c3")
+			(uuid "1f8415e7-225e-46d8-a83c-3a0c83de5550")
+		)
+		(pin "1"
+			(uuid "66850553-c564-4259-aa9f-aba0e1ed612b")
 		)
 		(instances
 			(project ""

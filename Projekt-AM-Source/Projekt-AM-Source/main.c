@@ -83,11 +83,22 @@ int main(void)
     
     // Enable interrupt on PD7 (INT1 and set it to rising edge)
     EIMSK |= (1 << INT1);
-    EICRA |= (1 << ISC10);    
+    EICRA |= (1 << ISC10);
+    
+    // Set PB3 as output
+    DDRB |= (1 << PORTB3);
+    
+    // Set Timer/Counter to Fast PWM and Inverting-mode
+    TCCR2A |= (1 << WGM21) | (1 << WGM20) | (1 << COM2A1);
+    TCCR2B &= ~((1 << CS22) | (1 << CS21) | (1 << CS20));
+    TCCR2B |= (1 << CS22) | (1 << CS20);
+    OCR2A = 128;
+    
     sei();
     
     while (1) 
     {
+        
         
     }
 }
